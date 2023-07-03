@@ -1,0 +1,76 @@
+/* © Copyright: LEMONSTIC */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Inter" !important;
+}
+/* 
+color: #17A2B8
+*/
+.btn, .card{
+    border-radius: 0px;
+}
+.btn{
+  padding: 8px 24px 8px 24px !important;
+}
+.btn_toggle_navbar{
+    border: none;
+    font-size: 24px;
+}
+@media (max-width: 600px){
+    h1{
+        font-size: xx-large;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    .btn_read_more{
+        margin-bottom: 25px;
+    }
+    .landing_contact_options{
+        text-align: center;
+    }
+    .svg_image{
+        display: none;
+    }
+    #build_a_site_eform_btn{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+}
+.hero_one{
+    margin-top: 13vh;
+    background-color: #F5F5F5;
+    /* border: 1px solid darkgray; */
+}
+.hero_one-nobg{
+    margin-top: 13vh;
+    background-color: #F8F9FA;
+    /* border: 1px solid darkgray; */
+}
+.hero_one_mid{
+    margin-top: 13vh;
+}
+/* .cookies_in_a_jar{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+} */
+.ls-subtext{
+    font-size: large;
+}
+.form-control{
+    box-shadow: none !important;
+}
+.form-control:focus{
+    border: 2px solid #14A2B8 !important;
+}
+.font-weight-bold{
+    font-family: 600 !important;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=0">
+  <meta name="description" content="Rapid website development, so you can focus on other things that matters.">
+  <title>E-Form</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/lemonstic_logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand text-info" href="/">
+    <img src="/assets/lemonstic.png" alt="lemonstic Logo" width="245" />
+  </a>
+
+  <button class="btn_toggle_navbar navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+    <i class="fa fa-bars text-info"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navb">
+    <ul class="navbar-nav mr-auto"> </ul>
+    
+    <form class="form-inline my-2 my-lg-0">
+        <a href="/" class="text-info">
+            <i class="fa fa-home"></i> Back to home
+        </a>
+    </form>
+
+    </div>
+</nav>
+
+<div class="bg-light hero_one_mid jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 mt-4">
+                    <img src="/assets/eform_image.svg" alt="Build a site E-Form" style="width: 90%; height: auto;" class="svg_image"/>
+                </div>
+
+                <div class="col-sm-6">
+                    <h3 class="font-weight-bold text-center">Build a site E-Form</h3>
+                    <form name="Build_a_site_request">
+                    <label>Name </label>
+                    <input type="text" name="name" class="form-control mb-3">
+
+                    <label>Email </label>
+                    <input type="text" name="email" class="form-control mb-3">
+
+                    <div class="form-check-inline mb-3">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="sitePlan" value="Basic" checked>Basic
+                        </label>
+                    </div>
+                    <div class="form-check-inline mb-3">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="sitePlan" value="Plus">Plus
+                        </label>
+                    </div>
+                    <div class="form-check-inline mb-3">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="sitePlan" value="Pro-Plus">Pro- Plus
+                        </label>
+                    </div>
+
+                    <br>
+                    <label>Site description </label><br>
+                    <textarea name="siteDescription" class="form-control mb-3" placeholder="Please provide description about your site."></textarea>
+
+                    <a class="btn btn-info float-right" href="form-success.html">
+                        Submit
+                    </a>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
